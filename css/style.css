@@ -4,7 +4,7 @@
 }
 
 html {
-    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 1)), url(/img/moroccan-flower.png);
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 1)), url(../img/moroccan-flower.png);
 }
 
 body {
@@ -57,9 +57,21 @@ img {
         padding: 0px;
         padding-bottom: 5px;
     }
+    #quote {
+        width: 100%;
+    }
+}
+
+#quote {
+    width: 80%;
 }
 
 #quote blockquote {
     padding: 10px;
     box-shadow: 0px 0px 10px -4px rgba(52, 137, 48, 0.5);
+}
+
+#quote blockquote p {
+    text-align: justify;
+    text-justify: inter-word;
 }
