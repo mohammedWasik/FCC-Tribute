@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+*::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 1)), url(/img/moroccan-flower.png);
+}
+
+body {
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+#img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    display: block;
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+#titlePart {
+    font-family: "Kaushan Script", cursive;
+}
+
+#tribute-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#timeline {
+    padding: 5px;
+    width: 70%;
+    margin-bottom: 2px;
+}
+
+#timeline ul li {
+    padding: 15px;
+    text-align: left;
+}
+
+@media screen and (max-width: 500px) {
+    #timeline {
+        width: 100%;
+    }
+    #timeline ul li {
+        padding: 0px;
+        padding-bottom: 5px;
+    }
+}
+
+#quote blockquote {
+    padding: 10px;
+    box-shadow: 0px 0px 10px -4px rgba(52, 137, 48, 0.5);
+}
